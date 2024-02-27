@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(btnText.equals("=")){
             solutinTv.setText(resultTv.getText());
+            resultTv.setText("");
             return;
         }
         if (btnText.equals("C")){

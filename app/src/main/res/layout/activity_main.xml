@@ -313,33 +313,33 @@
 
     <TextView
         android:id="@+id/solution_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="115dp"
         android:layout_margin="16dp"
-        android:text="0"
-        android:textAlignment="textEnd"
-        android:textSize="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/result_tv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         android:padding="16dp"
-        />
-
-    <TextView
-        android:id="@+id/result_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text=""
         android:textAlignment="textEnd"
         android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/result_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="355dp"
+        android:layout_height="71dp"
+        android:layout_margin="16dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="#BCBCBC"
+        android:textSize="34dp"
         app:layout_constraintBottom_toTopOf="@+id/buttons_id"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="16dp"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 
